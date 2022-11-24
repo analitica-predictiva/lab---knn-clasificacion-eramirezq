@@ -48,7 +48,7 @@ def pregunta_02():
     """
     import pandas as  pd
     # Lea el archivo de datos
-    df = pd.read_csv("/content/house-votes-84.csv", sep=",")
+    df = pd.read_csv("house-votes-84.csv", sep=",")
 
     # Cree un vector con la variable de respuesta ('party')
     y = df['party']
